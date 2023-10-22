@@ -22,7 +22,8 @@ and Route Handlers should be registered on it.
 .. seealso::
 
     To learn more about registering routes, check out this chapter in the documentation:
-    :ref:`usage/routing/overview:Registering Routes`
+
+    * :ref:`Routing - Registering Routes <usage/routing/overview:Registering Routes>`
 
 
 Startup and Shutdown
@@ -35,8 +36,8 @@ order, once the ASGI server (uvicorn, hypercorn, etc.) emits the respective even
 .. mermaid::
 
    flowchart LR
-       Startup[ASGI-Event: lifespan.startup] --> before_startup --> on_startup --> after_startup
-       Shutdown[ASGI-Event: lifespan.shutdown] --> before_shutdown --> on_shutdown --> after_shutdown
+       Startup[ASGI-Event: lifespan.startup] --> on_startup
+       Shutdown[ASGI-Event: lifespan.shutdown] --> on_shutdown
 
 A classic use case for this is database connectivity. Often, we want to establish a database connection on application
 startup, and then close it gracefully upon shutdown.

@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 
 
@@ -7,7 +6,7 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>OpenAPI &#8212; Litestar Framework</title>
   
@@ -19,39 +18,37 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/style.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/litestar-sphinx-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=a746c00c" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.1e8bd061cd6da7fc9cf755528e8ffc24.min.css?v=0a3b3ea7" />
+    <link rel="stylesheet" type="text/css" href="../_static/style.css?v=1d4867fe" />
+    <link rel="stylesheet" type="text/css" href="../_static/litestar-sphinx-theme.css?v=db8d6e31" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794"></script>
 
-    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
-    <script src="../_static/jquery.js"></script>
-    <script src="../_static/underscore.js"></script>
-    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
-    <script src="../_static/doctools.js"></script>
-    <script src="../_static/sphinx_highlight.js"></script>
-    <script src="../_static/clipboard.min.js"></script>
-    <script src="../_static/copybutton.js"></script>
-    <script src="../_static/litestar-theme.js"></script>
-    <script src="../_static/design-tabs.js"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js?v=1dd72c66"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/litestar-theme.js?v=ab2dcc9e"></script>
+    <script src="../_static/design-tabs.js?v=36754332"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'usage/openapi';</script>
-    <script src="../_static/versioning.js"></script>
-    <link rel="shortcut icon" href="../_static/favicon.png"/>
+    <script src="../_static/versioning.js?v=68b42869"></script>
+    <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Life Cycle Hooks" href="lifecycle-hooks.html" />
@@ -66,6 +63,15 @@
   
   
   <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
   
   <input type="checkbox"
           class="sidebar-toggle"
@@ -106,7 +112,8 @@
     <span class="fa-solid fa-bars"></span>
   </label>
   
-  <div class="navbar-header-items__start">
+  
+  <div class=" navbar-header-items__start">
     
       <div class="navbar-item">
    
@@ -128,7 +135,6 @@
 </a></div>
     
   </div>
-  
   
   <div class=" navbar-header-items">
     
@@ -437,7 +443,7 @@
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -447,10 +453,10 @@ document.write(`
           
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -468,8 +474,8 @@ document.write(`
           
           
           
-          <a href="https://github.com/litestar-org/litestar" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github"></i></span>
-            <label class="sr-only">GitHub</label></a>
+          <a href="https://github.com/litestar-org/litestar" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
         </li>
         <li class="nav-item">
           
@@ -480,8 +486,8 @@ document.write(`
           
           
           
-          <a href="https://discord.gg/X3FJqy8d2j" title="Discord" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-discord"></i></span>
-            <label class="sr-only">Discord</label></a>
+          <a href="https://discord.gg/X3FJqy8d2j" title="Discord" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-discord fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Discord</span></a>
         </li>
 </ul></div>
       
@@ -494,7 +500,7 @@ document.write(`
 <script>
 document.write(`
   <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
 </script>
@@ -503,10 +509,10 @@ document.write(`
     <div class="navbar-persistent--mobile">
 <script>
 document.write(`
-  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
-    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
-    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
   </button>
 `);
 </script>
@@ -514,7 +520,7 @@ document.write(`
   
 
   
-    <label class="sidebar-toggle secondary-toggle" for="__secondary">
+    <label class="sidebar-toggle secondary-toggle" for="__secondary" tabindex="0">
       <span class="fa-solid fa-outdent"></span>
     </label>
   
@@ -844,8 +850,8 @@ document.write(`
           
           
           
-          <a href="https://github.com/litestar-org/litestar" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github"></i></span>
-            <label class="sr-only">GitHub</label></a>
+          <a href="https://github.com/litestar-org/litestar" title="GitHub" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">GitHub</span></a>
         </li>
         <li class="nav-item">
           
@@ -856,8 +862,8 @@ document.write(`
           
           
           
-          <a href="https://discord.gg/X3FJqy8d2j" title="Discord" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-discord"></i></span>
-            <label class="sr-only">Discord</label></a>
+          <a href="https://discord.gg/X3FJqy8d2j" title="Discord" class="nav-link" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><span><i class="fa-brands fa-discord fa-lg" aria-hidden="true"></i></span>
+            <span class="sr-only">Discord</span></a>
         </li>
 </ul></div>
         
@@ -1135,8 +1141,8 @@ document.write(`
 
 
 
-<nav aria-label="Breadcrumbs">
-  <ul class="bd-breadcrumbs" role="navigation" aria-label="Breadcrumb">
+<nav aria-label="Breadcrumb">
+  <ul class="bd-breadcrumbs">
     
     <li class="breadcrumb-item breadcrumb-home">
       <a href="../index.html" class="nav-link" aria-label="Home">
@@ -1253,10 +1259,6 @@ a description and the expected media type. For example:</p>
 <p><cite>operation_id</cite> will be prefixed with the method name when function is decorated with <cite>HTTPRouteHandler</cite> and multiple
 <cite>http_method</cite>. Will also be prefixed with path strings used in <cite>Routers</cite> and <cite>Controllers</cite> to make sure id is unique.</p>
 </div>
-<div class="sd-tab-set docutils">
-<input id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" data-sync-id="3.8" for="sd-tab-item-0">
-Python 3.8+</label><div class="sd-tab-content docutils">
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
 <span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Optional</span>
 
@@ -1286,41 +1288,6 @@ Python 3.8+</label><div class="sd-tab-content docutils">
 <span class="k">def</span> <span class="nf">retrieve_item</span><span class="p">(</span><span class="n">pk</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Item</span><span class="p">:</span>
     <span class="o">...</span>
 </pre></div>
-</div>
-</div>
-<input checked="checked" id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
-</input><label class="sd-tab-label" data-sync-id="3.10" for="sd-tab-item-1">
-Python 3.10+</label><div class="sd-tab-content docutils">
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
-
-<span class="kn">from</span> <span class="nn">pydantic</span> <span class="kn">import</span> <span class="n">BaseModel</span>
-
-<span class="kn">from</span> <span class="nn">litestar</span> <span class="kn">import</span> <span class="n">get</span>
-<span class="kn">from</span> <span class="nn">litestar.openapi.datastructures</span> <span class="kn">import</span> <span class="n">ResponseSpec</span>
-
-
-<span class="k">class</span> <span class="nc">Item</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
-    <span class="o">...</span>
-
-
-<span class="k">class</span> <span class="nc">ItemNotFound</span><span class="p">(</span><span class="n">BaseModel</span><span class="p">):</span>
-    <span class="n">was_removed</span><span class="p">:</span> <span class="nb">bool</span>
-    <span class="n">removed_at</span><span class="p">:</span> <span class="n">datetime</span> <span class="o">|</span> <span class="kc">None</span>
-
-
-<span class="nd">@get</span><span class="p">(</span>
-    <span class="n">path</span><span class="o">=</span><span class="s2">&quot;/items/{pk:int}&quot;</span><span class="p">,</span>
-    <span class="n">responses</span><span class="o">=</span><span class="p">{</span>
-        <span class="mi">404</span><span class="p">:</span> <span class="n">ResponseSpec</span><span class="p">(</span>
-            <span class="n">model</span><span class="o">=</span><span class="n">ItemNotFound</span><span class="p">,</span> <span class="n">description</span><span class="o">=</span><span class="s2">&quot;Item was removed or not found&quot;</span>
-        <span class="p">)</span>
-    <span class="p">},</span>
-<span class="p">)</span>
-<span class="k">def</span> <span class="nf">retrieve_item</span><span class="p">(</span><span class="n">pk</span><span class="p">:</span> <span class="nb">int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Item</span><span class="p">:</span>
-    <span class="o">...</span>
-</pre></div>
-</div>
-</div>
 </div>
 <p>You can also specify <code class="docutils literal notranslate"><span class="pre">security</span></code> and <code class="docutils literal notranslate"><span class="pre">tags</span></code> on higher level of the application, e.g. on a controller, router, or the
 app instance itself. For example:</p>
@@ -1372,7 +1339,7 @@ app instance itself. For example:</p>
 default controller in the <a class="reference internal" href="../reference/openapi/openapi.html#litestar.openapi.OpenAPIConfig" title="litestar.openapi.config.OpenAPIConfig"><code class="xref py py-class docutils literal notranslate"><span class="pre">OpenAPIConfig</span></code></a>.</p>
 <p>This controller exposes the following endpoints:</p>
 <dl class="simple">
-<dt><code class="docutils literal notranslate"><span class="pre">/schema/openapi.yaml</span></code></dt><dd><p>allowing for download of the OpenAPI schema as YAML.</p>
+<dt><code class="docutils literal notranslate"><span class="pre">/schema/openapi.yaml</span></code> or <code class="docutils literal notranslate"><span class="pre">/schema/openapi.yml</span></code></dt><dd><p>allowing for download of the OpenAPI schema as YAML.</p>
 </dd>
 <dt><code class="docutils literal notranslate"><span class="pre">/schema/openapi.json</span></code></dt><dd><p>allowing for download of the OpenAPI schema as JSON.</p>
 </dd>
@@ -1458,7 +1425,7 @@ access the request instance:</p>
 <section id="customizing-pydantic-model-schemas">
 <h2>Customizing Pydantic model schemas<a class="headerlink" href="#customizing-pydantic-model-schemas" title="Permalink to this heading">#</a></h2>
 <p>You can customize the OpenAPI schemas generated for pydantic models by following the guidelines in
-the <a class="reference external" href="https://pydantic-docs.helpmanual.io/usage/schema/">pydantic docs</a>.</p>
+the <a class="reference external" href="https://docs.pydantic.dev/latest/usage/json_schema/">Pydantic docs</a>.</p>
 <p>Additionally, you can affect how pydantic models are translated into OpenAPI <code class="docutils literal notranslate"><span class="pre">components</span></code> by settings a special dunder
 attribute on the model called <code class="docutils literal notranslate"><span class="pre">__schema_name__</span></code>:</p>
 <div class="literal-block-wrapper docutils container" id="id2">
@@ -1544,8 +1511,8 @@ the generated OpenAPI schemas by creating a subclass of <a class="reference inte
 <p>This option can be helpful in situations where request data needs to be manually parsed as
 Litestar will not know how to create the OpenAPI operation data by default.</p>
 <div class="sd-tab-set docutils">
-<input id="sd-tab-item-2" name="sd-tab-set-1" type="radio">
-</input><label class="sd-tab-label" data-sync-id="3.8" for="sd-tab-item-2">
+<input id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" data-sync-id="3.8" for="sd-tab-item-0">
 Python 3.8+</label><div class="sd-tab-content docutils">
 <div class="literal-block-wrapper docutils container" id="id3">
 <div class="code-block-caption"><span class="caption-text">Customize Components Example</span><a class="headerlink" href="#id3" title="Permalink to this code">#</a></div>
@@ -1603,8 +1570,8 @@ Python 3.8+</label><div class="sd-tab-content docutils">
 </div>
 </div>
 </div>
-<input id="sd-tab-item-3" name="sd-tab-set-1" type="radio">
-</input><label class="sd-tab-label" data-sync-id="3.9" for="sd-tab-item-3">
+<input checked="checked" id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" data-sync-id="3.9" for="sd-tab-item-1">
 Python 3.9+</label><div class="sd-tab-content docutils">
 <div class="literal-block-wrapper docutils container" id="id4">
 <div class="code-block-caption"><span class="caption-text">Customize Components Example</span><a class="headerlink" href="#id4" title="Permalink to this code">#</a></div>
@@ -1622,64 +1589,6 @@ Python 3.9+</label><div class="sd-tab-content docutils">
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;Custom Operation class which includes a non-standard field which is part of an OpenAPI extension.&quot;&quot;&quot;</span>
 
     <span class="n">x_code_samples</span><span class="p">:</span> <span class="n">Optional</span><span class="p">[</span><span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]]]</span> <span class="o">=</span> <span class="n">field</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">metadata</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;alias&quot;</span><span class="p">:</span> <span class="s2">&quot;x-codeSamples&quot;</span><span class="p">})</span>
-
-    <span class="k">def</span> <span class="nf">__post_init__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">tags</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;ok&quot;</span><span class="p">]</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">description</span> <span class="o">=</span> <span class="s2">&quot;Requires OK, Returns OK&quot;</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">request_body</span> <span class="o">=</span> <span class="n">RequestBody</span><span class="p">(</span>
-            <span class="n">content</span><span class="o">=</span><span class="p">{</span>
-                <span class="s2">&quot;text&quot;</span><span class="p">:</span> <span class="n">OpenAPIMediaType</span><span class="p">(</span>
-                    <span class="n">schema</span><span class="o">=</span><span class="n">Schema</span><span class="p">(</span>
-                        <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Body&quot;</span><span class="p">,</span>
-                        <span class="nb">type</span><span class="o">=</span><span class="n">OpenAPIType</span><span class="o">.</span><span class="n">STRING</span><span class="p">,</span>
-                        <span class="n">example</span><span class="o">=</span><span class="s2">&quot;OK&quot;</span><span class="p">,</span>
-                    <span class="p">)</span>
-                <span class="p">),</span>
-            <span class="p">},</span>
-            <span class="n">description</span><span class="o">=</span><span class="s2">&quot;OK is the only accepted value&quot;</span><span class="p">,</span>
-        <span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">x_codeSamples</span> <span class="o">=</span> <span class="p">[</span>
-            <span class="p">{</span><span class="s2">&quot;lang&quot;</span><span class="p">:</span> <span class="s2">&quot;Python&quot;</span><span class="p">,</span> <span class="s2">&quot;source&quot;</span><span class="p">:</span> <span class="s2">&quot;import requests; requests.get(&#39;localhost/example&#39;)&quot;</span><span class="p">,</span> <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;Python&quot;</span><span class="p">},</span>
-            <span class="p">{</span><span class="s2">&quot;lang&quot;</span><span class="p">:</span> <span class="s2">&quot;cURL&quot;</span><span class="p">,</span> <span class="s2">&quot;source&quot;</span><span class="p">:</span> <span class="s2">&quot;curl -XGET localhost/example&quot;</span><span class="p">,</span> <span class="s2">&quot;label&quot;</span><span class="p">:</span> <span class="s2">&quot;curl&quot;</span><span class="p">},</span>
-        <span class="p">]</span>
-
-
-<span class="nd">@post</span><span class="p">(</span><span class="s2">&quot;/&quot;</span><span class="p">,</span> <span class="n">operation_class</span><span class="o">=</span><span class="n">CustomOperation</span><span class="p">,</span> <span class="n">media_type</span><span class="o">=</span><span class="n">MediaType</span><span class="o">.</span><span class="n">TEXT</span><span class="p">)</span>
-<span class="k">async</span> <span class="k">def</span> <span class="nf">route</span><span class="p">(</span><span class="n">request</span><span class="p">:</span> <span class="n">Request</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">str</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-
-<span class="sd">    Returns: OK</span>
-
-<span class="sd">    &quot;&quot;&quot;</span>
-
-    <span class="k">if</span> <span class="p">(</span><span class="k">await</span> <span class="n">request</span><span class="o">.</span><span class="n">body</span><span class="p">())</span> <span class="o">==</span> <span class="sa">b</span><span class="s2">&quot;OK&quot;</span><span class="p">:</span>
-        <span class="k">return</span> <span class="s2">&quot;OK&quot;</span>
-    <span class="k">raise</span> <span class="n">HTTPException</span><span class="p">(</span><span class="n">status_code</span><span class="o">=</span><span class="n">HTTP_400_BAD_REQUEST</span><span class="p">,</span> <span class="n">detail</span><span class="o">=</span><span class="s2">&quot;request payload must be OK&quot;</span><span class="p">)</span>
-
-
-<span class="n">app</span> <span class="o">=</span> <span class="n">Litestar</span><span class="p">(</span><span class="n">route_handlers</span><span class="o">=</span><span class="p">[</span><span class="n">route</span><span class="p">])</span>
-</pre></div>
-</div>
-</div>
-</div>
-<input checked="checked" id="sd-tab-item-4" name="sd-tab-set-1" type="radio">
-</input><label class="sd-tab-label" data-sync-id="3.10" for="sd-tab-item-4">
-Python 3.10+</label><div class="sd-tab-content docutils">
-<div class="literal-block-wrapper docutils container" id="id5">
-<div class="code-block-caption"><span class="caption-text">Customize Components Example</span><a class="headerlink" href="#id5" title="Permalink to this code">#</a></div>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">dataclasses</span> <span class="kn">import</span> <span class="n">dataclass</span><span class="p">,</span> <span class="n">field</span>
-
-<span class="kn">from</span> <span class="nn">litestar</span> <span class="kn">import</span> <span class="n">Litestar</span><span class="p">,</span> <span class="n">MediaType</span><span class="p">,</span> <span class="n">Request</span><span class="p">,</span> <span class="n">post</span>
-<span class="kn">from</span> <span class="nn">litestar.exceptions</span> <span class="kn">import</span> <span class="n">HTTPException</span>
-<span class="kn">from</span> <span class="nn">litestar.openapi.spec</span> <span class="kn">import</span> <span class="n">OpenAPIMediaType</span><span class="p">,</span> <span class="n">OpenAPIType</span><span class="p">,</span> <span class="n">Operation</span><span class="p">,</span> <span class="n">RequestBody</span><span class="p">,</span> <span class="n">Schema</span>
-<span class="kn">from</span> <span class="nn">litestar.status_codes</span> <span class="kn">import</span> <span class="n">HTTP_400_BAD_REQUEST</span>
-
-
-<span class="nd">@dataclass</span>
-<span class="k">class</span> <span class="nc">CustomOperation</span><span class="p">(</span><span class="n">Operation</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;Custom Operation class which includes a non-standard field which is part of an OpenAPI extension.&quot;&quot;&quot;</span>
-
-    <span class="n">x_code_samples</span><span class="p">:</span> <span class="nb">list</span><span class="p">[</span><span class="nb">dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="nb">str</span><span class="p">]]</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="n">field</span><span class="p">(</span><span class="n">default</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">metadata</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;alias&quot;</span><span class="p">:</span> <span class="s2">&quot;x-codeSamples&quot;</span><span class="p">})</span>
 
     <span class="k">def</span> <span class="nf">__post_init__</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">tags</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;ok&quot;</span><span class="p">]</span>
@@ -1783,11 +1692,10 @@ when generating the field name in the schema.</p>
               
               
               
-                <footer class="bd-footer-article">
-                  
-<div class="footer-article-items footer-article__inner">
-  
-    <div class="footer-article-item"><!-- Previous / next buttons -->
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
 <div class="prev-next-area">
     <a class="left-prev"
        href="stores.html"
@@ -1807,10 +1715,7 @@ when generating the field name in the schema.</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
-</div></div>
-  
 </div>
-
                 </footer>
               
             </div>
@@ -1851,8 +1756,8 @@ when generating the field name in the schema.</p>
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=ac02cc09edc035673794"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794"></script>
 
   <footer class="bd-footer">
 <div class="bd-footer__inner bd-page-width">
@@ -1870,7 +1775,7 @@ when generating the field name in the schema.</p>
       
         <div class="footer-item">
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 5.3.0.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.1.2.
     <br/>
   </p>
 </div>
@@ -1878,10 +1783,11 @@ when generating the field name in the schema.</p>
     </div>
   
   
+  
     <div class="footer-items__end">
       
         <div class="footer-item"><p class="theme-version">
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.13.3.
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.14.1.
 </p></div>
       
     </div>
